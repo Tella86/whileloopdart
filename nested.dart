@@ -1,0 +1,13 @@
+//nested if is an if else inside another one
+void main() {
+  var a = 20;
+  var b = 30;
+  var c = 45;
+  if (a > b) {
+    if (a > c) {
+      print("a is greater ");
+    }
+  } else if (b > c) {
+    print("b is greater");
+  }
+}
